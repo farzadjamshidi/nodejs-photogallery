@@ -1,0 +1,15 @@
+<div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-4">
+    {{#if projects}}
+        {{#each projects}}
+            <div class="cell">
+                <img class="thumbnail" src="/images/portfolio/{{image}}">
+                <h5 class="text-center">{{title}}</h5>
+
+            </div>
+        {{/each}}
+    {{else}}
+        <h3>No projects</h3>
+    {{/if}}
+
+
+</div>
